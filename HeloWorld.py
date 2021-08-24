@@ -1,12 +1,12 @@
-grade = int(input('Введите вашу отметку: '))
-
-if grade >= 90:
-    print(5)
-elif grade >= 80:
-    print(4)
-elif grade >= 70:
-    print(3)
-elif grade >= 60:
-    print(2)
+# put your python code here
+num = int(input())
+num31 = 1, 3, 5, 7, 8, 10, 12
+num30 = 4, 6, 9, 11
+num28 = 2
+if num == num31:
+    print('31')
+elif num == num30:
+        print("30")
 else:
-    print(1)
+    num == num28
+    print("28")
