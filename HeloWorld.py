@@ -1,12 +1,8 @@
 # put your python code here
 num = int(input())
-num31 = 1, 3, 5, 7, 8, 10, 12
-num30 = 4, 6, 9, 11
-num28 = 2
-if num == num31:
-    print('31')
-elif num == num30:
-        print("30")
-else:
-    num == num28
-    print("28")
+if num == 1 or num == 3 or num == 5 or num == 7 or num == 8 or num == 10 or num == 12:
+    print(31)
+elif num == 4 or num == 6 or num == 9 or num == 11:
+    print(30)
+elif num == 2:
+    print(28)
